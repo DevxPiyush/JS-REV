@@ -43,3 +43,20 @@ let x = [];
 console.log(x instanceof Array); // kya x array hai ? if han to true -> checked by instanceof
 // instance of -> check krta hai ki kya variable instanceof type
 // instance of -> use krte hai apan reference variables ke sath and typeof -> use krte hai mostly primitive values ke sath
+
+// sample code
+let score = 78;
+let grade = score >= 90 ? "A"
+    : score >= 75 ? "B"
+        : score >= 60 ? "C"
+            : "Fail";
+
+console.log(grade);  // "B"
+
+let w = 3;
+let k = w++;
+console.log(w,k);
+
+let p = 4;
+let q = ++p;
+console.log(p,q);
