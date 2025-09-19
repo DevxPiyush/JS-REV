@@ -24,4 +24,18 @@ changeevent.addEventListener("change", function (dets){
 });
 
 // event -> submit -> jab hum koi form submit kare to yeh karvana padta hai
-// see pratice zone 03 index.js file
+// see practice zone 03 index.js file
+
+// event -> mouseover and mousemove -> in practice zone 04
+
+// event object -> target,type, preventDefault
+/* document.addEventListener("click", function(dets){
+console.log(dets)
+});
+
+the thing inside function dets -> is the event object
+target -> that is the thing on which event has happened
+type -> shows the event type, for eg, click
+preventdefault -> yeh sbse jyada form me kaam aata hai jab hum koi detaiils submit kare and refresh karne pe sabkuch
+ data na chale jaaye isleye (used on practice zone 03)
+  */
