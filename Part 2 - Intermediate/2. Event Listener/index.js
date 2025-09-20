@@ -39,3 +39,6 @@ type -> shows the event type, for eg, click
 preventdefault -> yeh sbse jyada form me kaam aata hai jab hum koi detaiils submit kare and refresh karne pe sabkuch
  data na chale jaaye isleye (used on practice zone 03)
   */
+
+// event bubbling -> jispe event aayega agar uspe listener nahi hua to humara event uske parent par listenern
+// dhundhega and upar upar move karega
